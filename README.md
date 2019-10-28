@@ -134,7 +134,7 @@ curl -X POST \
 And here's an example of a POST request for a batch of text chunks to classify:
 ```bash
 curl -X POST \
-  'http://localhost:7000/sentiment_analysis/api/v1.0/inference?instance=EN300Twitter' \
+  'http://localhost:7000/sentiment_analysis/api/v1.0/batch_inference?instance=EN300Twitter' \
   -H 'Cache-Control: no-cache' \
   -H 'Content-Type: application/json' \
   -H 'Postman-Token: 3da2204c-f9ae-42f0-9ae6-8d4622129ca3' \
